@@ -1,0 +1,30 @@
+.header__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.search__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    max-width: 500px;
+    border-radius:5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.search__button{
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.search__button:hover{
+    background: #000;
+    color: white;
+}
